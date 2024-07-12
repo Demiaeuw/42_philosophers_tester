@@ -1,17 +1,17 @@
-#Philosopher Tester
+# Philosopher Tester
 
 Bienvenue dans le repository du Philosopher Tester. Ce projet est conçu pour automatiser les tests de votre implémentation du problème des philosophes mangeurs. Il vérifie le comportement de votre programme en termes de synchronisation, de gestion des threads et de gestion des ressources.
 
-##Contenu
+## Contenu
 
   **CMakeLists.txt** : Configuration de CMake pour compiler et exécuter les tests.
   **check_valgrind.py** : Script Python pour vérifier les fuites de mémoire à l'aide de Valgrind.
   **timeout_validator.py** : Script Python pour valider les tests qui doivent s'arrêter après un certain temps.
   **README.md** : Ce fichier, expliquant comment utiliser le tester.
 
-##Utilisation
+## Utilisation
 
-###1. Configuration du Projet
+### 1. Configuration du Projet
 
 Clonez ce repository dans le répertoire test de votre projet de philosophes. Votre arborescence devrait ressembler à ceci :
 
@@ -29,7 +29,7 @@ votre_projet/
     ├── timeout_validator.py
 ```
 
-###2. Compilation et Exécution des Tests
+### 2. Compilation et Exécution des Tests
 Étape 1 : Création du répertoire de build
 
 Naviguez dans le répertoire test et créez un répertoire build pour les fichiers de build.
@@ -63,7 +63,7 @@ bash
 
 ctest
 
-###3. Scripts de Test
+### 3. Scripts de Test
 
 check_valgrind.py
 
@@ -85,6 +85,10 @@ bash
 
 python3 timeout_validator.py 20 ./votre_executable 5 800 200 200
 
-##Conclusion
+## Conclusion
 
 Ce repository fournit un ensemble d'outils pour automatiser et valider les tests de votre implémentation des philosophes mangeurs. Assurez-vous que votre projet est structuré correctement et suivez les étapes fournies pour configurer et exécuter les tests.
+
+## Attention
+
+!!! Ce tester ne doit pas remplacer vos tests !!!
