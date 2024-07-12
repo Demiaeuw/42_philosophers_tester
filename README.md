@@ -30,40 +30,35 @@ votre_projet/
 ```
 
 ### 2. Compilation et Exécution des Tests
+
 Étape 1 : Création du répertoire de build
 
 Naviguez dans le répertoire test et créez un répertoire build pour les fichiers de build.
 
-bash
-
+```
 mkdir build
 cd build
+```
 
 Étape 2 : Configuration avec CMake
 
 Configurez votre projet avec CMake en exécutant la commande suivante :
-
-bash
-
+```
 cmake ..
-
+```
 Étape 3 : Compilation
 
 Compilez le projet en utilisant make :
-
-bash
-
+```
 make
-
+```
 Étape 4 : Exécution des Tests
 
 Exécutez les tests en utilisant ctest :
-
-bash
-
+```
 ctest
-
-### 3. Scripts de Test
+```
+### 3. Détails des Scripts de Test
 
 check_valgrind.py
 
